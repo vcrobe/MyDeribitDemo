@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitDemo", "src\MyDeribitDemo\MyDeribitDemo.csproj", "{13B7C1EE-20BC-4887-874D-100B9C6C1050}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitApiLibrary", "src\MyDeribitApiLibrary\MyDeribitApiLibrary.csproj", "{04571C87-23A1-4AE1-88E6-C21B080B3B9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitApi.Contracts", "src\MyDeribitApi.Contracts\MyDeribitApi.Contracts.csproj", "{3F16C86B-23FD-42B7-9E35-9E7C30CC8ACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitApi_TestsCommon", "src\Tests\MyDeribitApi_TestsCommon\MyDeribitApi_TestsCommon.csproj", "{7156E7FA-B218-4F02-9A7A-6A23723DD207}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitApi_UnitTests", "src\Tests\MyDeribitApi_UnitTests\MyDeribitApi_UnitTests.csproj", "{03462AA0-D0C5-4BAB-A4C4-4F9008EE1133}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeribitApi_IntegrationTests", "src\Tests\MyDeribitApi_IntegrationTests\MyDeribitApi_IntegrationTests.csproj", "{03D75A81-5B54-4A21-BE01-9BD5C736F549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13B7C1EE-20BC-4887-874D-100B9C6C1050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B7C1EE-20BC-4887-874D-100B9C6C1050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B7C1EE-20BC-4887-874D-100B9C6C1050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B7C1EE-20BC-4887-874D-100B9C6C1050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04571C87-23A1-4AE1-88E6-C21B080B3B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04571C87-23A1-4AE1-88E6-C21B080B3B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04571C87-23A1-4AE1-88E6-C21B080B3B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04571C87-23A1-4AE1-88E6-C21B080B3B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F16C86B-23FD-42B7-9E35-9E7C30CC8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16C86B-23FD-42B7-9E35-9E7C30CC8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16C86B-23FD-42B7-9E35-9E7C30CC8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16C86B-23FD-42B7-9E35-9E7C30CC8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7156E7FA-B218-4F02-9A7A-6A23723DD207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7156E7FA-B218-4F02-9A7A-6A23723DD207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7156E7FA-B218-4F02-9A7A-6A23723DD207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7156E7FA-B218-4F02-9A7A-6A23723DD207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03462AA0-D0C5-4BAB-A4C4-4F9008EE1133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03462AA0-D0C5-4BAB-A4C4-4F9008EE1133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03462AA0-D0C5-4BAB-A4C4-4F9008EE1133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03462AA0-D0C5-4BAB-A4C4-4F9008EE1133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D75A81-5B54-4A21-BE01-9BD5C736F549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D75A81-5B54-4A21-BE01-9BD5C736F549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D75A81-5B54-4A21-BE01-9BD5C736F549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D75A81-5B54-4A21-BE01-9BD5C736F549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C34E9F12-FECC-4F50-B140-7BA02FD089AF}
+	EndGlobalSection
+EndGlobal
